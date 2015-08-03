@@ -51,3 +51,29 @@ body {
   font-family: 'DejaVu Sans';
 }
 ```
+
+The following font files are included in the package:
+
+```
+DejaVuSans-Bold.ttf
+DejaVuSans-BoldOblique.ttf
+DejaVuSans-ExtraLight.ttf
+DejaVuSans-Oblique.ttf
+DejaVuSans.ttf
+DejaVuSansCondensed-Bold.ttf
+DejaVuSansCondensed-BoldOblique.ttf
+DejaVuSansCondensed-Oblique.ttf
+DejaVuSansCondensed.ttf
+DejaVuSansMono-Bold.ttf
+DejaVuSansMono-BoldOblique.ttf
+DejaVuSansMono-Oblique.ttf
+DejaVuSansMono.ttf
+DejaVuSerif-Bold.ttf
+DejaVuSerif-BoldItalic.ttf
+DejaVuSerif-Italic.ttf
+DejaVuSerif.ttf
+DejaVuSerifCondensed-Bold.ttf
+DejaVuSerifCondensed-BoldItalic.ttf
+DejaVuSerifCondensed-Italic.ttf
+DejaVuSerifCondensed.ttf
+```
