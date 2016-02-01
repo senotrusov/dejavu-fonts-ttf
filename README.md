@@ -25,14 +25,6 @@ If you have any questions regarding this package, please do not hesitate to
 contact [me](mailto:stan@senotrusov.com).
 
 
-## Installation
-
-Install with the [npm package manager](https://github.com/npm/npm):
-
-```
-npm install --save-dev dejavu-fonts-ttf
-```
-
 ## Usage
 
 With the help form [webpack module bundler](http://webpack.github.io)
@@ -76,4 +68,13 @@ DejaVuSerifCondensed-Bold.ttf
 DejaVuSerifCondensed-BoldItalic.ttf
 DejaVuSerifCondensed-Italic.ttf
 DejaVuSerifCondensed.ttf
+```
+
+
+## Installation
+
+Install with the [npm package manager](https://github.com/npm/npm):
+
+```
+npm install --save-dev dejavu-fonts-ttf
 ```
