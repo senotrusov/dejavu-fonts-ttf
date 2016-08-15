@@ -2,6 +2,7 @@
   "name": "dejavu-fonts-ttf",
   "version": "2.35.5",
   "description": "DejaVu fonts in TrueType format",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/senotrusov/dejavu-fonts-ttf.git"
