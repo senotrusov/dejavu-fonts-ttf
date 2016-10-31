@@ -2,7 +2,7 @@
 
 This is a package for [npm public registry](https://www.npmjs.com/) containing
 DejaVu fonts in TrueType format.
-The current packaged version is 2.35 from 17 May 2015.
+The current packaged version is 2.37 from 30 July 2016.
 
 For more information on DejaVu fonts please see
 [dejavu-fonts.org](http://dejavu-fonts.org) and [README-dejavu](README-dejavu).
@@ -27,47 +27,167 @@ contact [me](mailto:stan@senotrusov.com).
 
 ## Usage
 
-With the help form [webpack module bundler](http://webpack.github.io)
-it is possible to refer from CSS to the font file in the installed package:
+With the help from [webpack module bundler](http://webpack.github.io)
+it is possible to refer from CSS to the font file in the installed package
+with `~` path accessor. If you are not using it, replace `~` to
+`node_modules/` or whatever in following code.
+
+All fonts and faces included:
 
 ```css
 @font-face {
   font-family: 'DejaVu Sans';
-  src: local('DejaVu Sans'),
-    url('~dejavu-fonts-ttf/ttf/DejaVuSans.ttf') format('truetype');
+  src: local('DejaVu Sans'), url('~dejavu-fonts-ttf/ttf/DejaVuSans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
-body {
+@font-face {
   font-family: 'DejaVu Sans';
+  src: local('DejaVu Sans'), url('~dejavu-fonts-ttf/ttf/DejaVuSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: local('DejaVu Sans'), url('~dejavu-fonts-ttf/ttf/DejaVuSans-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: local('DejaVu Sans'), url('~dejavu-fonts-ttf/ttf/DejaVuSans-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Sans Condensed';
+  src: local('DejaVu Sans Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSansCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Sans Condensed';
+  src: local('DejaVu Sans Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSansCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Sans Condensed';
+  src: local('DejaVu Sans Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSansCondensed-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Sans Condensed';
+  src: local('DejaVu Sans Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSansCondensed-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Sans Mono';
+  src: local('DejaVu Sans Mono'), url('~dejavu-fonts-ttf/ttf/DejaVuSansMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Sans Mono';
+  src: local('DejaVu Sans Mono'), url('~dejavu-fonts-ttf/ttf/DejaVuSansMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: local('DejaVu Sans Mono'), url('~dejavu-fonts-ttf/ttf/DejaVuSansMono-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Sans Mono';
+  src: local('DejaVu Sans Mono'), url('~dejavu-fonts-ttf/ttf/DejaVuSansMono-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Serif';
+  src: local('DejaVu Serif'), url('~dejavu-fonts-ttf/ttf/DejaVuSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Serif';
+  src: local('DejaVu Serif'), url('~dejavu-fonts-ttf/ttf/DejaVuSerif-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Serif';
+  src: local('DejaVu Serif'), url('~dejavu-fonts-ttf/ttf/DejaVuSerif-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Serif';
+  src: local('DejaVu Serif'), url('~dejavu-fonts-ttf/ttf/DejaVuSerif-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Serif Condensed';
+  src: local('DejaVu Serif Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Serif Condensed';
+  src: local('DejaVu Serif Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DejaVu Serif Condensed';
+  src: local('DejaVu Serif Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Serif Condensed';
+  src: local('DejaVu Serif Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DejaVu Math TeX Gyre';
+  src: local('DejaVu Sans Condensed'), url('~dejavu-fonts-ttf/ttf/DejaVuMathTeXGyre.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 ```
 
 The following font files are included in the package:
 
 ```
+DejaVuSans.ttf
 DejaVuSans-Bold.ttf
 DejaVuSans-BoldOblique.ttf
 DejaVuSans-ExtraLight.ttf
 DejaVuSans-Oblique.ttf
-DejaVuSans.ttf
+DejaVuSansCondensed.ttf
 DejaVuSansCondensed-Bold.ttf
 DejaVuSansCondensed-BoldOblique.ttf
 DejaVuSansCondensed-Oblique.ttf
-DejaVuSansCondensed.ttf
+DejaVuSansMono.ttf
 DejaVuSansMono-Bold.ttf
 DejaVuSansMono-BoldOblique.ttf
 DejaVuSansMono-Oblique.ttf
-DejaVuSansMono.ttf
+DejaVuSerif.ttf
 DejaVuSerif-Bold.ttf
 DejaVuSerif-BoldItalic.ttf
 DejaVuSerif-Italic.ttf
-DejaVuSerif.ttf
+DejaVuSerifCondensed.ttf
 DejaVuSerifCondensed-Bold.ttf
 DejaVuSerifCondensed-BoldItalic.ttf
 DejaVuSerifCondensed-Italic.ttf
-DejaVuSerifCondensed.ttf
+DejaVuMathTeXGyre.ttf
 ```
 
 
@@ -76,5 +196,5 @@ DejaVuSerifCondensed.ttf
 Install with the [npm package manager](https://github.com/npm/npm):
 
 ```
-npm install --save-dev dejavu-fonts-ttf
+npm install --save dejavu-fonts-ttf
 ```
