@@ -1,10 +1,10 @@
 {
-  "name": "dejavu-fonts-ttf",
-  "version": "2.35.5",
-  "description": "DejaVu fonts in TrueType format",
+  "name": "@vintproykt/dejavu-fonts-ttf",
+  "version": "2.37.0",
+  "description": "DejaVu fonts in TrueType format. This package published to keep its content up to date with original release of DejaVu fonts. Original package by @senotrusov.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senotrusov/dejavu-fonts-ttf.git"
+    "url": "git+https://github.com/VINTproYKT/dejavu-fonts-ttf.git"
   },
   "keywords": [
     "dejavu",
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/senotrusov/dejavu-fonts-ttf/issues"
   },
-  "homepage": "https://github.com/senotrusov/dejavu-fonts-ttf#readme"
+  "homepage": "https://github.com/VINTproYKT/dejavu-fonts-ttf#readme"
 }

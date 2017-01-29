@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Родион\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.5
+3 info using node@v7.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\repo\\dejavu-fonts-ttf',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Родион\AppData\Roaming\npm-cache\@VINTproYKT\dejavu-fonts-ttf\2.37.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Родион\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle @VINTproYKT/dejavu-fonts-ttf@2.37.0~prepublish: @VINTproYKT/dejavu-fonts-ttf@2.37.0
+11 silly lifecycle @VINTproYKT/dejavu-fonts-ttf@2.37.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Родион\\AppData\\Roaming\\npm-cache\\@VINTproYKT\\dejavu-fonts-ttf\\2.37.0\\package.tgz',
+12 verbose tar pack   'C:\\repo\\dejavu-fonts-ttf' ]
+13 verbose tarball C:\Users\Родион\AppData\Roaming\npm-cache\@VINTproYKT\dejavu-fonts-ttf\2.37.0\package.tgz
+14 verbose folder C:\repo\dejavu-fonts-ttf
+15 verbose addLocalTarball adding from inside cache C:\Users\Родион\AppData\Roaming\npm-cache\@VINTproYKT\dejavu-fonts-ttf\2.37.0\package.tgz
+16 verbose correctMkdir C:\Users\Родион\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd @VINTproYKT/dejavu-fonts-ttf@2.37.0
+18 verbose afterAdd C:\Users\Родион\AppData\Roaming\npm-cache\@VINTproYKT\dejavu-fonts-ttf\2.37.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Родион\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Родион\AppData\Roaming\npm-cache\@VINTproYKT\dejavu-fonts-ttf\2.37.0\package\package.json written
+21 silly publish { name: '@VINTproYKT/dejavu-fonts-ttf',
+21 silly publish   version: '2.37.0',
+21 silly publish   description: 'DejaVu fonts in TrueType format. This package published to keep its content up to date with original release of DejaVu fonts. Original package by @senotrusov.',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/VINTproYKT/dejavu-fonts-ttf.git' },
+21 silly publish   keywords: [ 'dejavu', 'font', 'truetype' ],
+21 silly publish   license: 'SEE LICENSE IN LICENSE',
+21 silly publish   bugs: { url: 'https://github.com/senotrusov/dejavu-fonts-ttf/issues' },
+21 silly publish   homepage: 'https://github.com/VINTproYKT/dejavu-fonts-ttf#readme',
+21 silly publish   contributors:
+21 silly publish    [ { name: 'abysta at yandex.ru' },
+21 silly publish      { name: 'Adrian Schroeter' },
+21 silly publish      { name: 'Aleksey Chalabyan' },
+21 silly publish      { name: 'Andrey Valentinovich Panov' },
+21 silly publish      { name: 'Ben Laenen' },
+21 silly publish      { name: 'Besarion Gugushvili' },
+21 silly publish      { name: 'Bhikkhu Pesala' },
+21 silly publish      { name: 'Clayborne Arevalo' },
+21 silly publish      { name: 'Dafydd Harries' },
+21 silly publish      { name: 'Danilo Segan' },
+21 silly publish      { name: 'Davide Viti' },
+21 silly publish      { name: 'David Jez' },
+21 silly publish      { name: 'David Lawrence Ramsey' },
+21 silly publish      { name: 'Denis Jacquerye' },
+21 silly publish      { name: 'Dwayne Bailey' },
+21 silly publish      { name: 'Eugeniy Meshcheryakov' },
+21 silly publish      { name: 'Frédéric Wang' },
+21 silly publish      { name: 'Gee Fung Sit' },
+21 silly publish      { name: 'Heikki Lindroos' },
+21 silly publish      { name: 'James Cloos' },
+21 silly publish      { name: 'James Crippen' },
+21 silly publish      { name: 'John Karp' },
+21 silly publish      { name: 'Keenan Pepper' },
+21 silly publish      { name: 'Lars Næsbye Christensen' },
+21 silly publish      { name: 'Lior Halphon' },
+21 silly publish      { name: 'MaEr' },
+21 silly publish      { name: 'Mashrab Kuvatov' },
+21 silly publish      { name: 'Max Berger' },
+21 silly publish      { name: 'Mederic Boquien' },
+21 silly publish      { name: 'Michael Everson' },
+21 silly publish      { name: 'MihailJP' },
+21 silly publish      { name: 'Misu Moldovan' },
+21 silly publish      { name: 'Nguyen Thai Ngoc Duy' },
+21 silly publish      { name: 'Nicolas Mailhot' },
+21 silly publish      { name: 'Norayr Chilingarian' },
+21 silly publish      { name: 'Olleg Samoylov' },
+21 silly publish      { name: 'Ognyan Kulev' },
+21 silly publish      { name: 'Ondrej Koala Vacha' },
+21 silly publish      { name: 'Peter Cernak' },
+21 silly publish      { name: 'Remy Oudompheng' },
+21 silly publish      { name: 'Roozbeh Pournader' },
+21 silly publish      { name: 'Rouben Hakobian' },
+21 silly publish      { name: 'Sahak Petrosyan' },
+21 silly publish      { name: 'Sami Tarazi' },
+21 silly publish      { name: 'Sander Vesik' },
+21 silly publish      { name: 'Stepan Roh' },
+21 silly publish      { name: 'Stephen Hartke' },
+21 silly publish      { name: 'Steve Tinney' },
+21 silly publish      { name: 'Tavmjong Bah' },
+21 silly publish      { name: 'Thomas Henlich' },
+21 silly publish      { name: 'Tim May' },
+21 silly publish      { name: 'Valentin Stoykov' },
+21 silly publish      { name: 'Vasek Stodulka' },
+21 silly publish      { name: 'Wesley Transue' },
+21 silly publish      { name: 'Yoshiki Ohshima' },
+21 silly publish      { name: '$Id$' } ],
+21 silly publish   readme: '# DejaVu fonts in TrueType format\r\n\r\nThis is a package for [npm public registry](https://www.npmjs.com/) containing\r\nDejaVu fonts in TrueType format.\r\nThe current packaged version is 2.37 from 30 July 2016.\r\n\r\nFor more information on DejaVu fonts please see\r\n[dejavu-fonts.org](http://dejavu-fonts.org) and [README-dejavu](README-dejavu).\r\n\r\nThe DejaVu fonts are a font family based on the\r\n[Bitstream Vera Fonts](http://gnome.org/fonts/) version 1.10.\r\nIts purpose is to provide a wider range of characters\r\n(see [status.txt](status.txt) for more information)\r\nwhile maintaining the original look and feel.\r\n\r\nFor license information see [LICENSE](LICENSE). What\'s new is described\r\nin [NEWS](NEWS). Known bugs are in [BUGS](BUGS). All authors are mentioned\r\nin [AUTHORS](AUTHORS).\r\n\r\nThe information added in order to produce the package including but not\r\nlimited to [README.md](README.md) and [package.json](package.json) files\r\nis in public domain.\r\n\r\nIf you have any questions regarding this package, please do not hesitate to\r\ncontact [me](mailto:stan@senotrusov.com).\r\n\r\n\r\n## Usage\r\n\r\nWith the help from [webpack module bundler](http://webpack.github.io)\r\nit is possible to refer from CSS to the font file in the installed package\r\nwith `~` path accessor. If you are not using it, replace `~` to\r\n`node_modules/` or whatever in following code.\r\n\r\nAll fonts and faces included:\r\n\r\n```css\r\n@font-face {\r\n  font-family: \'DejaVu Sans\';\r\n  src: local(\'DejaVu Sans\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSans.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans\';\r\n  src: local(\'DejaVu Sans\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSans-Bold.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans\';\r\n  src: local(\'DejaVu Sans\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSans-Oblique.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans\';\r\n  src: local(\'DejaVu Sans\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSans-BoldOblique.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans Condensed\';\r\n  src: local(\'DejaVu Sans Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansCondensed.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans Condensed\';\r\n  src: local(\'DejaVu Sans Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansCondensed-Bold.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans Condensed\';\r\n  src: local(\'DejaVu Sans Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansCondensed-Oblique.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans Condensed\';\r\n  src: local(\'DejaVu Sans Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansCondensed-BoldOblique.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans Mono\';\r\n  src: local(\'DejaVu Sans Mono\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansMono.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans Mono\';\r\n  src: local(\'DejaVu Sans Mono\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansMono-Bold.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans\';\r\n  src: local(\'DejaVu Sans Mono\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansMono-Oblique.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Sans Mono\';\r\n  src: local(\'DejaVu Sans Mono\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSansMono-BoldOblique.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif\';\r\n  src: local(\'DejaVu Serif\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerif.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif\';\r\n  src: local(\'DejaVu Serif\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerif-Bold.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif\';\r\n  src: local(\'DejaVu Serif\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerif-Italic.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif\';\r\n  src: local(\'DejaVu Serif\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerif-BoldItalic.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif Condensed\';\r\n  src: local(\'DejaVu Serif Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif Condensed\';\r\n  src: local(\'DejaVu Serif Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed-Bold.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: normal;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif Condensed\';\r\n  src: local(\'DejaVu Serif Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed-Italic.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Serif Condensed\';\r\n  src: local(\'DejaVu Serif Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuSerifCondensed-BoldItalic.ttf\') format(\'truetype\');\r\n  font-weight: bold;\r\n  font-style: italic;\r\n}\r\n@font-face {\r\n  font-family: \'DejaVu Math TeX Gyre\';\r\n  src: local(\'DejaVu Sans Condensed\'), url(\'~dejavu-fonts-ttf/ttf/DejaVuMathTeXGyre.ttf\') format(\'truetype\');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n```\r\n\r\nThe following font files are included in the package:\r\n\r\n```\r\nDejaVuSans.ttf\r\nDejaVuSans-Bold.ttf\r\nDejaVuSans-BoldOblique.ttf\r\nDejaVuSans-ExtraLight.ttf\r\nDejaVuSans-Oblique.ttf\r\nDejaVuSansCondensed.ttf\r\nDejaVuSansCondensed-Bold.ttf\r\nDejaVuSansCondensed-BoldOblique.ttf\r\nDejaVuSansCondensed-Oblique.ttf\r\nDejaVuSansMono.ttf\r\nDejaVuSansMono-Bold.ttf\r\nDejaVuSansMono-BoldOblique.ttf\r\nDejaVuSansMono-Oblique.ttf\r\nDejaVuSerif.ttf\r\nDejaVuSerif-Bold.ttf\r\nDejaVuSerif-BoldItalic.ttf\r\nDejaVuSerif-Italic.ttf\r\nDejaVuSerifCondensed.ttf\r\nDejaVuSerifCondensed-Bold.ttf\r\nDejaVuSerifCondensed-BoldItalic.ttf\r\nDejaVuSerifCondensed-Italic.ttf\r\nDejaVuMathTeXGyre.ttf\r\n```\r\n\r\n\r\n## Installation\r\n\r\nInstall with the [npm package manager](https://github.com/npm/npm):\r\n\r\n```\r\nnpm install --save dejavu-fonts-ttf\r\n```\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '05cfceb96f4c3d7d8334ef95862476ffb903f1b3',
+21 silly publish   _id: '@VINTproYKT/dejavu-fonts-ttf@2.37.0',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: '46071c5ae89e40f369ba66cdca2e82582a500fe2',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @VINTproYKT/dejavu-fonts-ttf
+24 silly mapToRegistry scope (from package name) @VINTproYKT
+25 verbose mapToRegistry no registry URL found in name for scope @VINTproYKT
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@VINTproYKT/dejavu-fonts-ttf',
+28 silly mapToRegistry   scope: '@VINTproYKT',
+28 silly mapToRegistry   name: '@VINTproYKT/dejavu-fonts-ttf',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@VINTproYKT%2fdejavu-fonts-ttf
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading C:\Users\Родион\AppData\Roaming\npm-cache\@VINTproYKT\dejavu-fonts-ttf\2.37.0\package.tgz
+32 verbose request uri https://registry.npmjs.org/@VINTproYKT%2fdejavu-fonts-ttf
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 13:46:47
+35 verbose request using bearer token for auth
+36 verbose request id 65ac398a157b4b99
+37 http request PUT https://registry.npmjs.org/@VINTproYKT%2fdejavu-fonts-ttf
+38 http 402 https://registry.npmjs.org/@VINTproYKT%2fdejavu-fonts-ttf
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '119',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Sun, 29 Jan 2017 04:46:49 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-bma7025-BMA',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1485665204.972919,VS0,VE4426' }
+40 verbose request invalidating C:\Users\Родион\AppData\Roaming\npm-cache\registry.npmjs.org\_40VINTproYKT_252fdejavu-fonts-ttf on PUT
+41 error publish Failed PUT 402
+42 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @VINTproYKT/dejavu-fonts-ttf
+42 verbose stack     at makeError (C:\Users\Родион\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\Родион\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+42 verbose stack     at Request._callback (C:\Users\Родион\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+42 verbose stack     at Request.self.callback (C:\Users\Родион\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:199:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (C:\Users\Родион\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1036:10)
+42 verbose stack     at emitOne (events.js:101:20)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Users\Родион\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:963:12)
+43 verbose statusCode 402
+44 verbose pkgid @VINTproYKT/dejavu-fonts-ttf
+45 verbose cwd C:\repo\dejavu-fonts-ttf
+46 error Windows_NT 6.3.9600
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Родион\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+48 error node v7.0.0
+49 error npm  v3.8.5
+50 error code E402
+51 error You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @VINTproYKT/dejavu-fonts-ttf
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
