@@ -43,7 +43,7 @@ in [NEWS](NEWS). Known bugs are in [BUGS](BUGS). All authors are mentioned
 in [AUTHORS](AUTHORS).
 
 For more information on DejaVu fonts please see
-[dejavu-fonts.org](http://dejavu-fonts.org) and original DejaVu fonts [README-dejavu-fonts.md](README file).
+[dejavu-fonts.org](http://dejavu-fonts.org) and original DejaVu fonts [README file](README-dejavu-fonts.md).
 
 
 ## Installation
