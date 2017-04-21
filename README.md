@@ -37,7 +37,6 @@ DejaVu Serif Condensed Italic (experimental)
 DejaVu Math TeX Gyre
 ```
 
-For license information see [LICENSE](LICENSE).
 What's new is described in [NEWS](NEWS).
 Known bugs are in [BUGS](BUGS).
 All authors are mentioned in [AUTHORS](AUTHORS).
@@ -52,7 +51,7 @@ and original DejaVu fonts [README file](README-dejavu-fonts.md).
 Install with the [npm package manager](https://github.com/npm/npm):
 
 ```
-npm install --save-dev dejavu-fonts-ttf
+npm install dejavu-fonts-ttf
 ```
 
 

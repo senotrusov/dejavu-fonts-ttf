@@ -23,5 +23,8 @@ or enhancements as an employee, then a simple statement such as the above is
 insufficient. You must also send by surface mail a copyright release signed by
 a company officer. Please [email me](mailto:stan@senotrusov.com) for details.
 
+Please provide your name and (optionally) email for inclusion into the list
+of contributors.
+
 This document is based on texts from SQLite project (http://www.sqlite.org/)
 and from Unlicense template (https://unlicense.org/).

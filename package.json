@@ -1,6 +1,6 @@
 {
   "name": "dejavu-fonts-ttf",
-  "version": "2.37.1",
+  "version": "2.37.2",
   "description": "DejaVu fonts in TrueType format",
   "repository": {
     "type": "git",
@@ -11,9 +11,9 @@
     "font",
     "truetype"
   ],
-  "license": "Please find the README.md file for license information",
+  "license": "SEE LICENSE IN README.md AND LICENSE",
   "bugs": {
     "url": "https://github.com/senotrusov/dejavu-fonts-ttf/issues"
   },
-  "homepage": "https://github.com/senotrusov/dejavu-fonts-ttf#readme"
+  "homepage": "https://github.com/senotrusov/dejavu-fonts-ttf"
 }
