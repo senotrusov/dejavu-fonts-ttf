@@ -57,6 +57,14 @@ npm install dejavu-fonts-ttf
 
 ## Usage
 
+To programatically get the path to one of the TTF files included in this package:
+
+```javascript
+var dejavu = require("dejavu-fonts-ttf");
+dejavu.getPathToTTF("DejaVuSans", "Bold");  // => "/path/to/DejaVuSans-Bold.ttf"
+dejavu.getPathToTTF("DejaVuSerif");  // => "/path/to/DejaVuSerif.ttf"
+```
+
 With the help form [webpack module bundler](http://webpack.github.io)
 it is possible to refer from CSS to the font file in the installed package:
 
