@@ -1,19 +1,14 @@
 {
   "name": "dejavu-fonts-ttf",
-  "version": "2.37.2",
+  "version": "2.37.3",
   "description": "DejaVu fonts in TrueType format",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/senotrusov/dejavu-fonts-ttf.git"
-  },
   "keywords": [
     "dejavu",
     "font",
     "truetype"
   ],
+  "homepage": "https://github.com/senotrusov/dejavu-fonts-ttf",
+  "bugs": "https://github.com/senotrusov/dejavu-fonts-ttf/issues",
   "license": "SEE LICENSE IN README.md AND LICENSE",
-  "bugs": {
-    "url": "https://github.com/senotrusov/dejavu-fonts-ttf/issues"
-  },
-  "homepage": "https://github.com/senotrusov/dejavu-fonts-ttf"
+  "repository": "senotrusov/dejavu-fonts-ttf"
 }
